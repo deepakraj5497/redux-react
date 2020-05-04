@@ -90,7 +90,7 @@ class Tablehead extends React.Component{
         <thead style={{textAlign:"center"}}>
 			<tr style ={{backgroundColor:"black",color:"white"}}>
                 <th style={{width:"120px",padding:"12px 0px"}}><a onClick={this.sortBynum.bind(this,'name')} style={{padding:"12px 30px"}} href="#" 
-                    className="w-100 text-decoration-none text-white" ><i className={nameClass} style={{marginLeft:"5px"}}></i></a></th>
+                    className="w-100 text-decoration-none text-white" >hhhh<i className={nameClass} style={{marginLeft:"5px"}}></i></a></th>
                 <th style={{width:"80px",padding:"12px 0px"}}><a onClick={this.sortBynum.bind(this,'english')} style={{padding:"12px 10x"}} href="#" 
                     className="w-100 text-decoration-none text-white">English<i className={engClass} style={{marginLeft:"5px"}}></i></a></th>
                 <th style={{width:"76px",padding:"12px 0px"}}><a onClick={this.sortBynum.bind(this,'tamil')} style={{padding:"12px 10px"}} href="#" 
